@@ -5,21 +5,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".OCR">
+
     <ImageView
+        android:id="@+id/ImageView"
         android:layout_width="match_parent"
-        android:layout_height="350dp"
-        android:id="@+id/ImageView"/>
+        android:layout_height="148dp"
+        android:layout_alignBottom="@+id/ImagePicker"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="74dp" />
 
     <Button
         android:id="@+id/ImagePicker"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="20dp"
-        android:layout_marginBottom="195dp"
-        android:layout_marginStart="28dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="174dp"
+        android:onClick="pick_image"
         android:text="Pick Image" />
 
     <Button
@@ -31,16 +34,17 @@
         android:layout_alignTop="@+id/ImagePicker"
         android:layout_marginEnd="15dp"
         android:layout_marginRight="15dp"
-        android:text="Extract Text" />
+        android:text="Extract Text"
+        android:onClick="detect"/>
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="308dp"
-        android:layout_height="165dp"
+        android:layout_height="288dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="15dp"
-        android:textSize="20sp" />
+        android:textSize="12sp" />
 
 
 </RelativeLayout>
