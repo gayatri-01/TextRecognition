@@ -4,8 +4,8 @@
 <br>
 <br>
 <div align="center">
-<img src="https://github.com/gayatri-01/TextRecognition/blob/master/gif1.gif" height = "300" width="300"> </img>
-<img src="https://github.com/gayatri-01/TextRecognition/blob/master/gif2.gif" height = "300" width="300"> </img>
+<img src="https://github.com/gayatri-01/TextRecognition/blob/master/gif1.gif" > </img>
+<img src="https://github.com/gayatri-01/TextRecognition/blob/master/gif2.gif" > </img>
 </div>
 
 <br>
